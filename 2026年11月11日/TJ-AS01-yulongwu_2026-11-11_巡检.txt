@@ -1,0 +1,76 @@
+Name: TJ-AS01-yulongwu
+IP: 10.1.1.2
+Date: 2026-11-11
+============================================================
+dis version
+
+Info: The max number of VTY users is 5, the number of current VTY users online is 1, and total number of terminal users online is 2.
+      The current login time is 2026-11-11 16:01:55.
+      The last login time is 2026-11-11 15:58:58 from 10.1.1.254 through SSH.
+<TJ-AS01-yulongwu>dis version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.130 (CE12800 V800R013C00SPC560B560)
+Copyright (C) 2012-2016 Huawei Technologies Co., Ltd.
+HUAWEI CE12800 uptime is 0 day, 0 hour, 41 minutes 
+SVRP Platform Version 1.0
+<TJ-AS01-yulongwu>
+============================================================
+dis cpu
+dis cpu
+CPU utilization statistics at 2026-11-11 16:01:59 052 ms
+System CPU Using Percentage :  15%
+CPU utilization for five seconds: 0%, one minute: 0%, five minutes: 0%.
+Max CPU Usage :                53%
+Max CPU Usage Stat. Time : 2026-11-11 15:21:10 514 ms
+State: Non-overload
+Overload threshold:  90%, Overload clear threshold:  75%, Duration:  480s
+---------------------------
+ServiceName  UseRate   
+---------------------------
+SYSTEM           15%
+AAA               0%
+ARP               0%
+CMF               0%
+DEVICE            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LOCAL PKT         0%
+MSTP              0%
+  ---- More ----
+============================================================
+dis memory
+[16D                [16D<TJ-AS01-yulongwu>is memory
+                     ^
+Error: Unrecognized command found at '^' position.
+<TJ-AS01-yulongwu>
+============================================================
+dis int br
+dis int br
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+GE1/0/0                    up       up           0%     0%          0          0
+GE1/0/1                    up       up           0%     0%          0          0
+GE1/0/2                    up       up           0%     0%          0          0
+GE1/0/3                    *down    down         0%     0%          0          0
+GE1/0/4                    *down    down         0%     0%          0          0
+GE1/0/5                    *down    down         0%     0%          0          0
+GE1/0/6                    *down    down         0%     0%          0          0
+GE1/0/7                    *down    down         0%     0%          0          0
+GE1/0/8                    *down    down         0%     0%          0          0
+GE1/0/9                    *down    down         0%     0%          0          0
+  ---- More ----

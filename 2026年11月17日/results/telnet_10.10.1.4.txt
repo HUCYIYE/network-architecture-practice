@@ -1,0 +1,203 @@
+
+Telnet 10.10.1.4
+
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2026-11-17 13:55:39.
+<BJ-CE4-yulongwu>
+undo ter mon
+Info: Current terminal monitor is off.
+<BJ-CE4-yulongwu>
+screen-l 0 t
+Info: The configuration takes effect on the current user terminal interface only.
+<BJ-CE4-yulongwu>
+dis ip int br
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 2
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+MEth0/0/1                         unassigned           down       down      
+NULL0                             unassigned           up         up(s)     
+Vlanif1                           10.10.1.4/24         up         up        
+<BJ-CE4-yulongwu>
+dis cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 2% Max: 100%
+CPU Usage Stat. Time : 2026-11-17  13:55:39 
+CPU utilization for five seconds: 2%: one minute: 2%: five minutes: 2%.
+
+TaskName             CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+BOX                   0%         0/ 44ca544       BOX Output                   
+_TIL                  0%         0/       0       Infinite loop event task     
+VCLK                  0%         0/ 34f1cc4                                    
+TICK                  0%         0/ 8202973                                    
+VT0                   0%         0/       0       VT0 Line user's task         
+U34                   0%         0/       0       U34  user command process
+                                                  task                         
+RTMR                  0%         0/ 19f8a8d       RTMR                         
+IPCR                  0%         0/       0       IPCR                         
+VPR                   0%         0/       0       VPR                          
+VPS                   0%         0/       0       VPS                          
+EDBG                  0%         0/       0       EDBG                         
+ECM                   0%         0/       0       ECM                          
+DEV                   0%         0/       0       DEV  Device                  
+FCAT                  0%         0/  1fabd6       FCAT FECD task for catch
+                                                  packet                       
+FOAM                  0%         0/       0       FOAM                         
+FTS                   0%         0/       0       FTS                          
+IPCQ                  0%         0/ 4370acc       IPCQIPC task for single queue
+IPCK                  0%         0/       0       IPCKIPC task for ack message 
+VP                    0%         0/   315a5       VP  Virtual path task        
+RPCQ                  0%         0/  64e639       RPCQRemote procedure call    
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VFS                   0%         0/       0       VFS Virtual file system      
+VMON                  0%         0/       0       VMONSystem monitor           
+VMSH                  0%         0/       0       VMSH                         
+PAT                   0%         0/       0       PAT                          
+HACK                  0%         0/       0       HACKtask for HA ACK          
+CLKI                  0%         0/       0       CLKI                         
+STND                  0%         0/       0       STNDStandby task             
+INFO                  0%         0/   a6011       INFOInformation center       
+SAPP                  0%         0/  8971d7       SAPP                         
+NQAC                  0%         0/       0       NQAC                         
+NQAS                  0%         0/       0       NQAS                         
+ALM                   0%         0/       0       ALM  Alarm                   
+ENSP                  0%         0/ 2859b8a       ENSP                         
+DEVA                  0%         0/       0       DEVA Device assistant        
+SRM                   0%         0/ 3e9f4fd       SRM  System Resource Manage  
+METH                  0%         0/  432a73       METH                         
+FIB6                  0%         0/       0       FIB6IPv6 FIB                 
+BFD                   0%         0/ 2226fba       BFD Bidirection Forwarding
+                                                  Detect                       
+TNLM                  0%         0/  4fc6c8       TNLM                         
+LSPA                  0%         0/       0       LSPA                         
+L2V                   0%         0/       0       L2V                          
+MACL                  0%         0/  6f1b3c       MACL                         
+CCTL                  0%         0/       0       CCTLBulk stat connect control
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+NAP                   0%         0/       0       NAP                          
+TRAF                  0%         0/  4d444f       TRAFTraffic Statistics       
+SLAG                  0%         0/       0       SLAG                         
+ITSK                  0%         0/  4c4efd       ITSKIPOS common task         
+SNPG                  0%         0/  399b7a       SNPG Multicast Snooping      
+MCSW                  0%         0/  4de738       MCSW Mulitcast Switch        
+L3M4                  0%         0/       0       L3M4                         
+L3I4                  0%         0/       0       L3I4                         
+NDMB                  0%         0/       0       NDMB                         
+NDIO                  0%         0/       0       NDIO                         
+L3MB                  0%         0/       0       L3MB                         
+L3IO                  0%         0/       0       L3IO                         
+PNGM                  0%         0/       0       PNGM                         
+FECD                  0%         0/  675578       FECD Forward Equal Class
+                                                  Develope                     
+MPSI                  0%         0/   9a834       MPSI                         
+MPSM                  0%         0/       0       MPSM                         
+PPI                   0%         0/  31c9c4       PPI Product Process Interface
+MAC                   0%         0/  1edccd       MAC Media Access Control     
+IFPD                  0%         0/ 7532956       IFPD Ifnet Product Adapt     
+TRUN                  0%         0/       0       TRUNK Product Adapt          
+STFW                  0%         0/       0       STFW Super task forward      
+XQOS                  0%         0/  44942b       XQOS Quality of service      
+MIRR                  0%         0/       0       MIRR                         
+SMLK                  0%         0/  eab3e0       SMLK Smart Link Protocol     
+CDM                   0%         0/  277e03       CDM                          
+NFPT                  0%         0/ 1bbe534       NFPTNFP timer task           
+SOCK                  0%         0/  58df28       SOCKPacket schedule and
+                                                  process                      
+FIB                   0%         0/       0       FIB Forward Information Base 
+MFIB                  0%         0/   1e2dd       MFIBMulticast forward info   
+IFNT                  0%         0/       0       IFNTIfnet task               
+VTYD                  0%         0/  539f5c       VTYDVirtual terminal         
+RSA                   0%         0/       0       RSA RSA public-key algorithms
+AGNT                  0%         0/       0       AGNTSNMP agent task          
+TRAP                  0%         0/       0       TRAPSNMP trap task           
+FMAT                  0%         0/   a3ebe       FMATFault Manage task        
+MDMT                  0%         0/ 95335bd       MDMTModem task               
+CFM                   0%         0/       0       CFM Configuration file
+                                                  management                   
+HS2M                  0%         0/       0       HS2MHigh available task      
+TACH                  0%         0/ 30599ad       TACHWTACACS                  
+ACL                   0%         0/  138585       ACL                          
+SECE                  0%         0/ 283a2d1       SECE Security                
+DEFD                  0%         0/   38a06       DEFD CPU Defend              
+STRA                  0%         0/   35662       STRA Source Track            
+MFF                   0%         0/  486167       MFF MAC Forced Forwarding    
+LBDT                  0%         0/ 392aac9       LBDT Loopback Detect Mpu     
+BFDA                  0%         0/       0       BFDA BFD Adapter             
+DAD-                  0%         0/       0       DAD-proxy Task               
+MSYN                  0%         0/  de97a9       MSYN Mac Synchronization     
+AAA                   0%         0/       0       AAA                          
+RDS                   0%         0/       0       RDS                          
+UCM                   0%         0/   c9d8a       UCM  User Control Management 
+DHCP                  0%         0/  44f52d       DHCP Dynamic Host Config
+                                                  Protocol                     
+AM                    0%         0/  766b9d       AM   Address Management      
+PTAL                  0%         0/       0       PTAL Portal                  
+PS                    0%         0/   6a9c9       PS   Portal local server     
+HTPD                  0%         0/  308104       HTPD HTTP process for portal 
+EAP                   0%         0/  151092       EAP  Extensible Authen
+                                                  Protocol                     
+TM                    0%         0/       0       TM   Transmission Management 
+SAM                   0%         0/   547b0       SAM  Service Agent Module    
+WEB                   0%         0/       0       WEB  Web                     
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus  
+SMAG                  0%         0/       0       SMAG Smart Link Agent        
+GVRP                  0%         0/       0       GVRP Protocol                
+DLDP                  0%         0/  35811d       DLDP Protocol                
+LLDP                  0%         0/  2e3182       LLDP Protocol                
+UDPH                  0%         0/       0       UDPH                         
+BPDU                  0%         0/   35b0e       BPDU Adapter                 
+EFMT                  0%         0/  33cb43       EFMTEST 802.3AH Test         
+ADPT                  0%         0/       0       ADPT Adapter                 
+ETHA                  0%         0/       0       ETHA                         
+SPM                   0%         0/ 2ab45df       SPM                          
+ROUT                  0%         0/ 52601d9       ROUTRoute task               
+LSPM                  0%         0/  35cbb5       LSPMLsp management           
+RSVP                  0%         0/       0       RSVP task                    
+LDP                   0%         0/       0       LDP task                     
+GRES                  0%         0/       0       GRESM task                   
+GEM                   0%         0/       0       GEM task                     
+GEMR                  0%         0/       0       GEMRun task                  
+UTSK                  0%         0/       0       UTSK                         
+APP                   0%         0/       0       APP                          
+IP                    0%         0/  247a8a       IP                           
+EOAM                  0%         0/  284b8c       EOAM1AG                      
+LINK                  0%         0/  854958       LINK                         
+STP                   0%         0/ 30d346a       STP                          
+VRPT                  0%         0/  269610       VRPT                         
+HOTT                  0%         0/       0       HOTT                         
+TNQA                  0%         0/  2a5061       TNQAC                        
+TTNQ                  0%         0/       0       TTNQAS                       
+TARP                  0%         0/       0       TARPING                      
+TTVP                  0%         0/       0       TTVPLS                       
+L2                    0%         0/  fab97c       L2                           
+VRRP                  0%         0/ 1d3c02a       VRRP                         
+L2_P                  0%         0/ 1cf8532       L2_PR                        
+ARP                   0%         0/       0       ARP                          
+NTPT                  0%         0/  2d42c6       NTPT task                    
+SRMT                  0%         0/  aec030       SRMT System Resource Manage
+                                                  Timer                        
+SRMI                  0%         0/       0       SRMI External Interrupt      
+RMON                  0%         0/  2d970f       RMONRemote monitoring        
+IFLP                  0%         0/   6a576       IFLP                         
+OS                  100%        32/4c2a85e0       Operation System             
+
+<BJ-CE4-yulongwu>
+dis logb slot 0
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 0
+Current messages : 59
+
+<BJ-CE4-yulongwu>
